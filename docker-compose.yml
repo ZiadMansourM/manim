@@ -1,0 +1,10 @@
+version: '3'
+services:
+  manim:
+    image: manimcommunity/manim:stable
+    container_name: manim
+    hostname: manim
+    volumes:
+      - ./src:/manim
+    entrypoint: /bin/bash
+    tty: true
