@@ -55,7 +55,7 @@ class HoughTransformSceneOne(Scene):
                     accumulator.c2p(second_point[0], second_point[1]),
                     color=DARK_BLUE
                 )
-                self.play(Create(line), run_time=0.1)
+                self.play(Create(line), run_time=1)
             self.play(cell.animate.set_fill(BLACK, opacity=0), run_time=0.1)
         
         # Draw a blue dot at (0, 1)
@@ -121,7 +121,7 @@ class HoughTransformSceneTwo(Scene):
                     x_range=[-np.pi/2, np.pi/2, np.pi/18],
                     color=DARK_BLUE
                 )
-                self.play(Create(curve), run_time=0.1)
+                self.play(Create(curve), run_time=1)
             self.play(cell.animate.set_fill(BLACK, opacity=0), run_time=0.1)
 
         # Draw a blue dot at (-np.pi/4, 0)
