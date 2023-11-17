@@ -1,3 +1,3 @@
 from .intro import Intro
 from .transition import Transition
-from .hough import HoughTransformSceneOne
+from .hough import HoughTransformSceneOne, HoughTransformSceneTwo
