@@ -13,5 +13,5 @@ $ manim -qm project/hough_transform.py Main
 
 For final video rendering, use the following command:
 ```console
-$ manim -qh -r 3840,2160 project/hough_transform.py Main
+$ manim -qk project/hough_transform.py Main
 ```
