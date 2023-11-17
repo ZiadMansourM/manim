@@ -1,5 +1,6 @@
 from manim import *
 
+
 def get_two_points_on_line(i):
     """Returns two points on the line represented by the cell at index i
     Args:
@@ -19,6 +20,7 @@ def get_two_points_on_line(i):
         first_point = (c_value(x_value(i), y_value(i), -4), -4)
         second_point = (c_value(x_value(i), y_value(i), 4), 4)
     return first_point, second_point
+
 
 class HoughTransformSceneOne(Scene):
     def construct(self):
